@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#search-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#search-results {
+    margin-top: 20px;
+}
+
+.result {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.result-title {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.result-snippet {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.result-url {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.result-url:hover {
+    text-decoration: underline;
+}
